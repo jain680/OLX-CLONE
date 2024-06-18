@@ -1,0 +1,130 @@
+*{
+    margin:00;
+    padding:0;
+}
+body{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    width: 100%;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    background-color: #f3f3f3;
+}
+.inputbox1{
+    display: flex;
+    align-items:center;
+    width: 250px;
+    border:2px solid black;
+    height: 45px;
+    border-radius: 5px;
+    margin-left: 20px;
+}
+.inputbox1 input {
+    flex: 1;
+    border: none;
+    outline: 0;
+    background-color: transparent;
+    padding-left: 15px;
+
+
+}
+.inputbox2{
+    display: flex;
+    align-items:center;
+    width: 600px;
+    border:2px solid black;
+    height: 45px;
+    border-radius: 5px;
+    margin-left: 20px;
+
+}
+.inputbox2 input{
+    flex: 1;
+    border: none;
+    outline: 0;
+    background-color: transparent;
+    padding-left: 15px;
+
+}
+.log:hover{
+    text-decoration: underline;
+}
+.second-header{
+    width: 100%;
+    height: 10px;
+    margin-top: 5px;
+    display: flex;
+    align-items: center;
+    background-color:#fff;
+}
+.second-header a{
+    text-decoration: none;
+    color: black;
+    margin-left: 15px;
+    font-size: 14px;
+    font-weight: 500;
+}
+.second-header a:hover{
+    color:lightblue;
+}
+.ads{
+    width:80%;
+    height: 370px;
+    border: 2px solid rgb(146, 170, 169);
+    background-image: url(primevideo-seo-logo.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+    
+}
+.prod{
+    width:100%;
+    height: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 400px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+   
+}
+.product{
+    width:350px;
+    height: 280px;
+    margin-bottom: 900px;
+   outline: 1px solid #f3f3f3;
+   box-shadow: 1px 2px 1px #f3f3f3;
+   margin-left: 15px;
+   cursor: pointer;
+}
+.imgarea{
+    height: 200px;
+    width: 100%;
+   
+}
+
+.product img{
+    display: block;
+    width:70%;
+    margin-left: auto;
+    margin-right: auto;
+    height: 150px;
+}
+.product h3{
+    margin-left: 20px;
+    font-size: 25px;
+    margin-top: 20px;
+}
+.product p{
+    margin-left: 20px;
+    
+}
+
+
